@@ -1,5 +1,6 @@
 import './App.css';
 import { useSelector } from 'react-redux';
+import { increment } from './actions';
 
 function App() {
   const counter = useSelector(state => state.counter);
